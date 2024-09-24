@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es5", // Phiên bản ECMAScript mục tiêu
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ], // Thư viện hỗ trợ
+    "allowJs": true, // Cho phép biên dịch tệp .js
+    "skipLibCheck": true, // Bỏ qua kiểm tra loại trong thư viện
+    "esModuleInterop": true, // Hỗ trợ tương thích với các module ES
+    "allowSyntheticDefaultImports": true, // Hỗ trợ nhập khẩu mặc định giả lập
+    "strict": true, // Bật tất cả các tùy chọn kiểm tra nghiêm ngặt
+    "forceConsistentCasingInFileNames": true, // Đảm bảo tính nhất quán về phân biệt chữ hoa chữ thường trong tên tệp
+    "module": "esnext", // Hệ thống module
+    "moduleResolution": "node", // Cách giải quyết các module
+    "resolveJsonModule": true, // Cho phép nhập các tệp JSON
+    "isolatedModules": true, // Bảo đảm rằng mỗi tệp được biên dịch độc lập
+    "noEmit": true, // Không xuất mã ra tệp (chỉ kiểm tra)
+    "jsx": "react-jsx" // Cấu hình JSX cho React
+  },
+  "include": [
+    "src"
+  ], // Thư mục bao gồm mã nguồn
+  "exclude": [
+    "node_modules",
+    "build"
+  ] // Thư mục hoặc tệp không được biên dịch
+}
